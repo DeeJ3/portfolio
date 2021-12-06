@@ -1,8 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .nav {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    background-color: darkslategray;
+    color: white;
+    padding: 30px;
 }
 
 .nav ul {
@@ -17,5 +25,23 @@
 
 .nav ul li a {
     text-decoration: none;
-    color: black;
+    color: rgb(143, 169, 194);
+}
+
+#about-me {
+    text-align: center;
+}
+
+.profile-pic {
+    width: 200px;
+    border-radius: 50%;
+}
+
+#about-me p {
+    width: 75%;
+    margin: 50px auto;
+}
+
+.project-img {
+    width: 70%;
 }
