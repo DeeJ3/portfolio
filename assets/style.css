@@ -30,6 +30,7 @@
 
 #about-me {
     text-align: center;
+    color: rgb(0, 23, 128);
 }
 
 .profile-pic {
@@ -43,5 +44,24 @@
 }
 
 .project-img {
+    width: 80%;
     width: 70%;
+    margin: 50px;
+    text-align: center;
+}
+
+#my-work {
+    text-align: center;
+    color: rebeccapurple;
+}
+
+#contact-me {
+text-align: center;
+color:goldenrod;
+}
+
+#contact-me p {
+    width: 60%;
+    margin: 30px;
+    text-align: center;
 }
